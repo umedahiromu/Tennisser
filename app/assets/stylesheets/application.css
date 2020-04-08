@@ -1,4 +1,31 @@
-/*
+body {
+  margin : 0px;
+  padding : 0px;
+}
+  
+.menu-bar {
+  height : 60px;
+  width : 100%;
+  background-color : lightgreen;
+}
+
+.title {
+  float : left;
+  margin-left : 40px;
+}
+
+.menu-list {
+  float : right;
+}
+
+.menu-list ul {
+  list-style : none;
+}
+
+.menu-list ul li {
+  display : inline;
+  margin : 0 20px;
+}/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
